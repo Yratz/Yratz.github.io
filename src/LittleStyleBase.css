@@ -1,5 +1,5 @@
 * {
-    font-family: Pribambas;
+    font-family: 'Font1';
     margin: 0;
     padding: 0;
 }
@@ -44,7 +44,7 @@ main {
 }
 
 .logoText {
-    font-family: "Action Jackson";
+    font-family: 'Font2';
     font-size: 35px;
     color: saddlebrown;
 }
