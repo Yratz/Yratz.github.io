@@ -2,6 +2,7 @@
 {
     text-align: center;
     padding: 20px;
+    font-family: 'Font1';
     color: snow;
     font-weight: bold;
     font-size: 5vw;
@@ -17,6 +18,7 @@
     background: #eb6f4a;
     text-align: center;
     padding: 20px;
+    font-family: 'Font1';
     color: #eaddc8;
     font-weight: bold;
     font-size: 5.5vw;
@@ -68,6 +70,7 @@
     border: 0;
     border-radius: 15px;
     font-size: 22px;
+    font-family: 'Font1';
     color: #eb6f4a;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -81,6 +84,7 @@
     background: #eaddc8;
     border: 0;
     border-radius: 30px;
+    font-family: 'Font1';
     color: #7569a6;
     font-size: 22px;
     margin-bottom: 30px;
@@ -95,6 +99,7 @@
 .stage-2 a
 {
     margin-left: 80%;
+    font-family: 'Font1';
     color: #eaddc8;
     font-size: 16px;
 
