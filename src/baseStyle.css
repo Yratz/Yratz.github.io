@@ -1,5 +1,24 @@
+@font-face {
+
+    font-family: 'Font1';
+
+    src: local('Font1'),
+
+    url(assets/Pribambas-Regular.ttf);
+
+}
+@font-face {
+
+    font-family: 'Font2';
+
+    src: local('Font2'),
+
+    url(assets/actionj.ttf);
+
+}
+
 * {
-    font-family: Pribambas;
+    font-family: 'Font1';
     margin: 0;
     padding: 0;
 }
@@ -39,7 +58,7 @@ main {
 
 .logoText {
     display: inline-block;
-    font-family: "Action Jackson";
+    font-family: 'Font2';
     font-size: 3.5vw;
     color: saddlebrown;
 }
@@ -102,7 +121,7 @@ footer {
     width: 200px;
     margin: 20px;
     min-height: 200px;
-    font-size: 1vw;
+    font-size: 1vm;
     color: #eaddc8;
     background: #7569a6;
     border-radius: 20px;
@@ -116,7 +135,7 @@ footer {
     flex-direction: column;
     /*justify-content: space-around;*/
     /*vertical-align: center;*/
-    width: 20%;
+    width: 200px;
     /*margin-right: 100px;*/
     min-height: 100%;
     font-size: 2vw;
