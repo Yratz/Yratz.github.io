@@ -49,6 +49,7 @@ header {
 }
 
 main {
+    height: 100%;
     display: block;
     background: none;
     grid-area: M;
