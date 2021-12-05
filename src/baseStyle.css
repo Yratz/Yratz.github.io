@@ -26,6 +26,7 @@ header {
 }
 
 main {
+    width: auto;
     display: block;
     background: none;
     grid-area: M;
