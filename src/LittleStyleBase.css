@@ -1,3 +1,21 @@
+@font-face {
+
+    font-family: 'Font1';
+
+    src: local('Font1'),
+
+    url(assets/Pribambas-Regular.ttf);
+
+}
+@font-face {
+
+    font-family: 'Font2';
+
+    src: local('Font2'),
+
+    url(assets/actionj.ttf);
+
+}
 * {
     font-family: 'Font1';
     margin: 0;
