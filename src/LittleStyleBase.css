@@ -282,7 +282,7 @@ nav ul li a:hover, nav ul li a:focus {
     margin: 0;
     display: grid;
     grid-template-rows: 400px 80px;
-    grid-template-columns: 1fr 20px 20px 20px 20px 20px 1fr;
+    grid-template-columns: 1fr 10px 10px 10px 10px 10px 1fr;
     align-items: center;
     justify-items: center;
 }
