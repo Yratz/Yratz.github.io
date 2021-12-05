@@ -1,5 +1,24 @@
+@font-face {
+
+    font-family: 'Font1';
+
+    src: local('Font1'),
+
+    url(assets/Pribambas-Regular.ttf);
+
+}
+@font-face {
+
+    font-family: 'Font2';
+
+    src: local('Font2'),
+
+    url(assets/actionj.ttf);
+
+}
+
 * {
-    font-family: Pribambas;
+    font-family: 'Font1';
     margin: 0;
     padding: 0;
 }
@@ -43,7 +62,7 @@ main {
 
 .logoText {
     display: inline-block;
-    font-family: "Action Jackson";
+    font-family: 'Font2';
     font-size: 3.5vw;
     color: saddlebrown;
 }
