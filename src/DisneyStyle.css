@@ -1,0 +1,88 @@
+span {
+    color: #ffd670;
+}
+
+
+.DisGallery {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    grid-auto-rows: minmax(50px,auto);
+    grid-auto-columns: minmax(50px,auto);
+}
+.images {
+    transition: ease-out 1s;
+    max-width: 100%;
+}
+.images:hover {
+    transition: 1s ease-out;
+    transform: rotate(30deg);
+}
+.heroInf {
+    border-radius: 50px;
+    margin-top: 30px;
+    display: none;
+    background: #eb6f4a;
+    padding: 30px;
+    transition: 0.5s;
+}
+.heroImg {
+    float: right;
+    background: #eaddc8;
+    border-radius: 50%;
+    width: 40%;
+}
+.heroInf input {
+    display: none;
+}
+
+.slider_dots {
+    position: relative;
+    z-index: 5;
+    top: -50px;
+    left: 80%;
+}
+.slider_dots label {
+    cursor: pointer;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #eaddc8;
+    border-radius: 50px;
+    margin: 1px;
+}
+form.searchForm {
+    z-index: 0;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+input.searchInf {
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    padding-left: 10px;
+    border: 2px solid #ff9770 ;
+    border-radius: 5px;
+    outline: none;
+    background: #F9F0DA;
+    color: #eb6f4a;
+}
+button.searchButton {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: #ff9770;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+button.searchButton:before {
+    font-family: FontAwesome;
+    content: "\f002";
+    font-size: 16px;
+    color: #F9F0DA;
+}

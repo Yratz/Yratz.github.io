@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>О нас</title>
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="baseStyle.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1024px)" href="MiddleStyleBase.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="LittleStyleBase.css">
+    <link rel="stylesheet"  href="ForInfo.css">
+    <link href="hamburger.css" rel="stylesheet">
+    <link href="NewsStyle.css" rel="stylesheet">
+    <link rel="SHORTCUT ICON" href= "assets/Decoration/Favicon.png" type="image/png">
+</head>
+<body>
+<header>
+    <div class="headerBox">
+        <div class="mobileHead">
+            <a id="firstPointHead" href="HomePage.html">
+                <img class="logoImg" src="assets/Decoration/LogoMult.png" alt="Logo">
+            </a>
+            <h1 class="logoText">CarCHUBS</h1>
+        </div>
+        <!--        <div style="flex-grow: 2;margin-left: 20px;margin-right: 20px">-->
+        <!--&lt;!&ndash;            <div><input type="text" name="user_name" required placeholder=" Search" class="searchInf"></div>&ndash;&gt;-->
+        <!--        </div>-->
+        <input type="checkbox" id="checkbox">
+        <nav>
+            <ul>
+                <li><a class="navButtons" href="HomePage.html">Главная</a></li>
+                <li><a class="navButtons" href="HeroesMenu.html">Меню героев</a></li>
+                <li><a class="navButtons" href="News.html">Новости</a></li>
+                <li><a class="navButtons" href="Info.html">О нас</a></li>
+            </ul>
+        </nav>
+        <div class="menu-icon">
+            <label for="checkbox">
+                <i class="fa fa-bars menu-icon"></i>
+            </label>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="mainInf">
+        <div style="display: flex; flex-direction: column; justify-content: space-between; align-items: center">
+            <h1 class="simpleNewH">Информация</h1>
+            <h2>
+                Вам стало интересно узнать поподробнее об этом сайте и о нас(обо мне)?!
+                <br>
+                Я рад!!!
+            </h2>
+            <div>
+                <img style="float: right; width: 30%; margin: 20px" src="assets/Info/I.png">
+                <div>Вообщем вот он я, красавец. Этот сайт является моей курсовой работой и да, я понимаю, что в нем много(куча) косяков и недоработок, да и опыта у меня не так много, но, знаете, я все же попытался сделать  что-то более менее симпатичное)<br>
+                Если вы заходите найти меня в соц.сетях, ты вы можете просто-напросто перейти по рекламным окошкам слева).
+                </div>
+<!--                    <img style="float: left; width: 60%; margin: 20px" src="assets/Info/2.png">-->
+                    <br>
+            </div>
+            <div class="open-modal" onclick="openModal()">Оценить</div>
+                    <div class="modal">
+                        <div class="star-box">
+                            <div class="stars" onmouseover="starsAnim()" onmouseleave="starsLeave()">
+                                <svg height="20.68" width="19.8" class="star">
+                                    <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                                </svg>
+                                <svg height="20.68" width="19.8" class="star">
+                                    <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                                </svg>
+                                <svg height="20.68" width="19.8" class="star">
+                                    <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                                </svg>
+                                <svg height="20.68" width="19.8" class="star">
+                                    <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                                </svg>
+                                <svg height="20.68" width="19.8" class="star">
+                                    <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;"/>
+                                </svg>
+                            </div>
+
+                            <div class="verdict">
+                                <h1 style="color: #eb6f4a">Мне жаль, что вам не понравилось(</h1>
+                                <h1 style="color: #eb6f4a">Надеюсь, хоть что нибудь вам запомнится  🐷</h1>
+                                <h1 style="color: #eb6f4a">Я приму критику! 🍵</h1>
+                                <h1 style="color: #eb6f4a">Я счастлив, что вы оценили 🍺</h1>
+                                <h1 style="color: #eb6f4a">ОГО! ВЫ супер! 🍉</h1>
+                            </div>
+
+                            <input type="text" placeholder="Поделитесь своим опытом" id="otziv">
+                            <button class="send-rating">Отправить</button>
+
+                            <div class="stage-2">
+                                <a href="" class="headingNew">Изменить</a>
+                                <h1 style="margin-top: 10px">Спасибо за отзыв</h1>
+                            </div>
+                        </div>
+                    </div>
+                <div class="overlay" onclick="closeModal()"></div>
+            <img class="newImg" src="assets/Heroes/Bags_banny.png">
+
+        </div>
+    </section>
+</main>
+<aside class="ads">
+    <div class="adsSection">
+        <div style="text-align: center">
+            <a href="https://www.instagram.com/yyuurriiyyy/" class="headingNew">
+                Мой инстаграмм:@yyuurriiyyy
+                <br>
+                <img style=" width: 100%" src="assets/Heroes/1.png">
+            </a>
+        </div>
+    </div>
+    <div class="adsSection">
+        <div style="text-align: center">
+            <a href="https://www.tiktok.com/@yriybunin?" class="headingNew">
+                Мой тик-ток:@yriybunin
+                <br>
+                <img style=" width: 100%" src="assets/Heroes/2.png">
+            </a>
+        </div>
+    </div>
+    <div class="adsSection">
+        <div style="text-align: center">
+            <a href="https://vk.com/id137744206" class="headingNew">
+                Реклама моих персонажей)
+                <br>
+                <img style=" width: 100%" src="assets/Heroes/3.png">
+            </a>
+        </div>
+    </div>
+</aside>
+<aside class="news">
+    <div class="newsSection">
+        <div class="new">
+            <a class="headingNew" href="New1.html"><img style=" width: 100%" src="assets/News/n2.jpg" class="newImg">
+                "Маша и Медведь" собрали 100 млрд просмотров и отметят это спецсерией..</a>
+        </div>
+        <div class="new"><a class="headingNew" href="New2.html"><img style=" width: 100%" src="assets/News/n1.jpg" class="newImg">
+            Смешарик Нюша стала Моднюшей и снялась в специальной серии для девочек..</a></div>
+        <div class="new">
+            <a class="headingNew" href="New3.html"><img style=" width: 100%" src="assets/News/n31.jpg" class="newImg">
+                "Союзмультфильм" представил трейлер нового "Ну, погоди!" и рассказал о перезапуске..</a>
+        </div>
+        <div class="new">
+            <a class="headingNew" href="New4.html"><img style=" width: 100%" src="assets/News/n4.JPG" class="newImg">
+                В новой серии "Простоквашино" Мама Дяди Федора исполнит новый шлягер</a>
+        </div>
+    </div>
+</aside>
+<footer>
+    <address>
+        Портал разработан Юриком Арматурой. inst:@yyuurriiyyy.
+    </address>
+</footer>
+</body>
+<script src="script.js"></script>
+
+</html>
+

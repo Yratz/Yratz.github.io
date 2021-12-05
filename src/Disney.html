@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="baseStyle.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1024px)" href="MiddleStyleBase.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="LittleStyleBase.css">
+    <link rel="stylesheet" href="DisneyStyle.css">
+<!--    <link rel="stylesheet" href="GaleryStyle.css">-->
+    <link href="hamburger.css" rel="stylesheet">
+    <link href="NewsStyle.css" rel="stylesheet">
+    <title>Disney</title>
+    <link rel="SHORTCUT ICON" href= "assets/Decoration/Favicon.png" type="image/png">
+</head>
+<body>
+<header>
+    <div class="headerBox">
+        <div class="mobileHead">
+            <a id="firstPointHead" href="HomePage.html">
+                <img class="logoImg" src="assets/Decoration/LogoMult.png" alt="Logo">
+            </a>
+            <h1 class="logoText">CarCHUBS</h1>
+        </div>
+        <input type="checkbox" id="checkbox">
+        <nav>
+            <ul>
+                <li><a class="navButtons" href="HomePage.html">Главная</a></li>
+                <li><a class="navButtons" href="HeroesMenu.html">Меню героев</a></li>
+                <li><a class="navButtons" href="News.html">Новости</a></li>
+                <li><a class="navButtons" href="Info.html">О нас</a></li>
+            </ul>
+        </nav>
+        <div class="menu-icon">
+            <label for="checkbox">
+                <i class="fa fa-bars menu-icon"></i>
+            </label>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="mainInf">
+        <article id="history">
+            <div>
+                <h1 class="itemMain" style="text-align: center; font-family: 'Action Jackson'; font-size: 7vw">Disney</h1>
+<!--                <div>Найдите вашего люимчика!<br><br></div>-->
+<!--                <form class="searchForm" action="" method="get">-->
+<!--                    <input class="searchInf" name="q" placeholder="Искать здесь..." type="search">-->
+<!--                    <button class="searchButton" type="submit"></button>-->
+<!--                </form>-->
+<!--                        <div style="flex-grow: 2;margin-left: 20px;margin-right: 20px">-->
+<!--                            <div><input type="text" name="search_hero" required placeholder="Search" class="searchInf"></div>-->
+<!--                        </div>-->
+                <div class="itemMain">
+                    <br>
+                    <br>
+                </div>
+                <h1>Предыстория компании Disney</h1>
+                <div>
+                    <br>
+                    История Дисней началась с маленького мальчика, который в свои 7 лет заработал первые деньги. Он нарисовал лошадь соседа и продал ему этот рисунок за 5 центов. Толчком к будущему прогрессу стал и расположенный недалеко зажиточный дом с высоким забором, в котором был сад и детские качели. Уолт не мог там гулять, поэтому и мечтал создать аттракционы для всех детей.
+
+                    На тот момент парнишка даже не подозревал, что талант к рисованию даст возможность создать мощную корпорацию по индустрии развлечения, которая получит больше 20 "Оскаров" за мультипликационные картины. Нынешняя компания Уолта Диснея стала мировой мультимедийной историей, а началось всё с самого детства и дара Уолта Диснея, проявившегося способностью к рисованию.</div>
+                <h1><br>Основание компании</h1>
+                <div>
+                    <br>
+                    Основание компании Уолт Дисней
+                    Компания Уолт Дисней – организована двумя братьями, Уолтером и Роем Диснеями 16 октября 1923 года. Изначально это была небольшая студия по созданию анимации. Уолтер Дисней родился в 1901 году в бедной семье и смог стать ярким примером воплощением мечты в жизнь. История студии стремительно развивалась, и уже через полгода после основания, в марте 1924 года, будущая компания Disney презентовала общественности свою первую кинокартину.
+
+                    Затем последовала серия рисованных фильмов (1926-1927 годах). Дисней, история которого началась с работы художником, изначально назвал свою компанию Disney Brothers Cartoon Studio. Хотя кинематограф был не так продвинут в то время, а ниша мультипликационных фильмов была не занята, Уолтер всё равно не мог думать о столь мощном успехе, который свалится на его голову в будущем. История бренда Disney многоликая и холмистая, в ней были как мощные взлёты, так и жёсткие разочарования.
+                </div>
+            </div>
+            <div class="DisGallery">
+                <img class="images" src="assets/DisneyDec/old1.jpg">
+                <img class="images"  src="assets/DisneyDec/old2.jpg">
+                <img class="images"  src="assets/DisneyDec/old3.jpg">
+                <img class="images"  src="assets/DisneyDec/old4.jpg">
+            </div>
+        </article>
+        <article class="heroes">
+            <div class="gridButtons">
+                    <button onclick="buttonActive(1)" class="heroesButtons"><a name="Микки"></a>Микки Маус</button>
+                    <button name="Гуфи" onclick="buttonActive(2)" class="heroesButtons"><a name="Гуфи"></a>Гуффи</button>
+            </div>
+            <div class="heroInf mickey">
+                <span class="blackout"></span>
+                <div>
+                    <img class="heroImg" src="assets/Heroes/mickey_mouse.png">
+                    <p><span class="heroName">Микки Маус, или Микки-Маус</span> (англ. Mickey Mouse «Мышь Микки») — мультипликационный персонаж, один из символов компании The Walt Disney Company и американской поп-культуры в целом. Представляет собой антропоморфного мышонка.</p>
+
+                    <p>Данные о дне рождения не вполне однозначны. Официально днём рождения Микки считается 18 ноября 1928 года. Именно в этот день показали миру мультфильм «Пароходик Вилли». Хотя впервые кинозрители познакомились с Микки ещё за 183 дня (15 мая), когда вышел небольшой немой мультфильм «Безумный самолёт».</p>
+
+                    <p>Говорит высоким и тонким голосом. До 1947 года Уолт Дисней лично озвучивал Микки Мауса, из-за хронического кашля вследствие курения был вынужден прекратить озвучку. Тогда компания Дисней поручила эту работу Джимми Макдональду. С 1977 по 2009 Микки Мауса озвучивал Уэйн Оллвайн.</p>
+
+                    <p>Часто появляется в компании друга Дональда и собаки по кличке Плуто. Кроме того, у Микки есть подружка по имени Минни, его младший брат Морти и агрессивные и озорные племянники Майкл и Майло Филдмаус. Микки Маус фигурирует в мультфильмах, комиксах, видеоиграх и развлекательных парках.</p>
+
+                    <p>Микки Маус появился в 1928 году, после того как Уолт Дисней потерял права на своего первого персонажа, удачливого кролика Освальда. Первые короткие анимационные фильмы с Микки Маусом были нарисованы Абом Айверксом, главным компаньоном Уолта Диснея. Впоследствии, с ростом популярности, Микки Маус начал фигурировать в полнометражных мультфильмах, на телевидении, комиксах и различных предметах.</p>
+                </div>
+                <div>
+                    <h1><br>Больше изображений с Микки</h1>
+                    <div class="heroGallery">
+                        <div class="slider_dots mickey">
+                            <label for="slider_dot_1"></label>
+                            <label for="slider_dot_2"></label>
+                            <label for="slider_dot_3"></label>
+                            <label for="slider_dot_4"></label>
+                            <label for="slider_dot_5"></label>
+                        </div>
+                        <input class="slider_dot mickey" id="slider_dot_1" type="radio" name="position"/>
+                        <input class="slider_dot mickey" id="slider_dot_2" type="radio" name="position" />
+                        <input class="slider_dot mickey" id="slider_dot_3" type="radio" name="position"  checked/>
+                        <input class="slider_dot mickey" id="slider_dot_4" type="radio" name="position" />
+                        <input class="slider_dot mickey" id="slider_dot_5" type="radio" name="position" />
+                        <div class="carousel">
+                            <div style="background-image: url('assets/heroesGallery/m1.jpg')" class="item_1"></div>
+                            <div style="background-image: url('assets/heroesGallery/m2.jpg')" class="item_1"></div>
+                            <div style="background-image: url('assets/heroesGallery/m3.jpg')" class="item_1"></div>
+                            <div style="background-image: url('assets/heroesGallery/m4.jpg')" class="item_1"></div>
+                            <div style="background-image: url('assets/heroesGallery/m5.jpg')" class="item_1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="heroInf guffi">
+                <div>
+                    <img class="heroImg" src="assets/Heroes/goofy.png">
+                    <p><span class="heroName">Гуфи</span> — самый настоящий добряк. Несмотря на свою неловкость и частые ошибки, он не опускает руки и всегда старается довести до конца начатое дело. Из-за неуклюжести Гуфи часто страдают окружающие, но все его недостатки легко простить за искреннюю любовь и заботу, которыми он окружает близких (иногда против их собственной воли).</p>
+
+                        <p>При всей своей неуклюжести Гуфи великолепный спортсмен и внимательный отец, который в одиночку справляется с воспитанием сына-подростка.</p>
+                </div>
+                <div>
+                    <h1><br>Больше изображений с Гуфи</h1>
+                    <div class="heroGallery">
+                        <div class="slider_dots goffy">
+                            <label for="slider_dot_1G"></label>
+                            <label for="slider_dot_2G"></label>
+                            <label for="slider_dot_3G"></label>
+                            <label for="slider_dot_4G"></label>
+                            <label for="slider_dot_5G"></label>
+                        </div>
+                        <input class="slider_dot goffy" id="slider_dot_1G" type="radio" name="positionGuffy"/>
+                        <input class="slider_dot goffy" id="slider_dot_2G" type="radio" name="positionGuffy" />
+                        <input class="slider_dot goffy" id="slider_dot_3G" type="radio" name="positionGuffy"  checked/>
+                        <input class="slider_dot goffy" id="slider_dot_4G" type="radio" name="positionGuffy" />
+                        <input class="slider_dot goffy" id="slider_dot_5G" type="radio" name="positionGuffy" />
+                        <div class="carousel">
+                            <div style="background-image: url('assets/heroesGallery/g1.png')" class="item_1"></div>
+                            <div style="background-image: url('assets/heroesGallery/g2.jpg')" class="item_1"></div>
+                            <div style="background-image: url('assets/heroesGallery/g3.jpg')" class="item_1"></div>
+                            <div style="background-image: url('assets/heroesGallery/g4.jpg')" class="item_1"></div>
+                            <div style="background-image: url('assets/heroesGallery/g5.jpg')" class="item_1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+</main>
+<aside class="ads">
+    <div class="adsSection">
+        <div style="text-align: center">
+            <a href="https://www.instagram.com/yyuurriiyyy/" class="headingNew">
+                Мой инстаграмм:@yyuurriiyyy
+                <br>
+                <img style=" width: 100%" src="assets/Heroes/1.png">
+            </a>
+        </div>
+    </div>
+    <div class="adsSection">
+        <div style="text-align: center">
+            <a href="https://www.tiktok.com/@yriybunin?" class="headingNew">
+                Мой тик-ток:@yriybunin
+                <br>
+                <img style=" width: 100%" src="assets/Heroes/2.png">
+            </a>
+        </div>
+    </div>
+    <div class="adsSection">
+        <div style="text-align: center">
+            <a href="https://vk.com/id137744206" class="headingNew">
+                Реклама моих персонажей)
+                <br>
+                <img style=" width: 100%" src="assets/Heroes/3.png">
+            </a>
+        </div>
+    </div>
+</aside>
+<aside class="news">
+    <div class="newsSection">
+        <div class="new">
+            <a class="headingNew" href="New1.html"><img style=" width: 100%" src="assets/News/n2.jpg" class="newImg">
+                "Маша и Медведь" собрали 100 млрд просмотров и отметят это спецсерией..</a>
+        </div>
+        <div class="new"><a class="headingNew" href="New2.html"><img style=" width: 100%" src="assets/News/n1.jpg" class="newImg">
+            Смешарик Нюша стала Моднюшей и снялась в специальной серии для девочек..</a></div>
+        <div class="new">
+            <a class="headingNew" href="New3.html"><img style=" width: 100%" src="assets/News/n31.jpg" class="newImg">
+                "Союзмультфильм" представил трейлер нового "Ну, погоди!" и рассказал о перезапуске..</a>
+        </div>
+        <div class="new">
+            <a class="headingNew" href="New4.html"><img style=" width: 100%" src="assets/News/n4.JPG" class="newImg">
+                В новой серии "Простоквашино" Мама Дяди Федора исполнит новый шлягер</a>
+        </div>
+    </div>
+</aside>
+<footer>
+    <address>
+        Портал разработан Юриком Арматурой. inst:@yyuurriiyyy.
+    </address>
+</footer>
+</body>
+<script>
+
+
+    function change_dot_colorMikey(n, event) {
+        let dots = document.getElementsByClassName("slider_dots mickey")[0].children;
+        for (let j = 0; j < dots.length; j++) {
+            if (n === j) {
+                dots[j].style.background = "#7569a6";
+            }
+            else {
+                dots[j].style.background = "#eaddc8";
+            }
+        }
+    }
+    function change_dot_colorGoffy(n, event) {
+        let dots = document.getElementsByClassName("slider_dots goffy")[0].children;
+        for (let j = 0; j < dots.length; j++) {
+            if (n === j) {
+                dots[j].style.background = "#7569a6";
+            }
+            else {
+                dots[j].style.background = "#eaddc8";
+            }
+        }
+    }
+
+    document.getElementsByClassName("slider_dots mickey")[0].children[2].style.background = "#7569a6";
+    document.getElementsByClassName("slider_dots goffy")[0].children[2].style.background = "#7569a6";
+
+    let inputs_2 = document.getElementsByClassName("slider_dot goffy");
+    for (let i = 0; i < inputs_2.length; i++) {
+        inputs_2[i].addEventListener("click", change_dot_colorGoffy.bind(event, i));
+    }
+
+    let inputs_1 = document.getElementsByClassName("slider_dot mickey");
+    for (let i = 0; i < inputs_1.length; i++) {
+        inputs_1[i].addEventListener("click", change_dot_colorMikey.bind(event, i));
+    }
+
+
+    function buttonActive(n) {
+        let button = document.getElementsByClassName("gridButtons")[0].children;
+        let search = document.getElementsByClassName("heroes")[0].children;
+        if (search[n].style.display !== "block") {
+            search[n].style.display = "block";
+            button[n-1].style.background = "#ff70a6";
+        }
+        else {
+            search[n].style.display = "none";
+            button[n-1].style.background = "";
+
+        }
+    }
+</script>
+</html>
