@@ -4,6 +4,7 @@
     padding: 0;
 }
 body {
+    overflow: hidden;
     display: grid;
     background: url("assets/Decoration/background.png");
     background-size: 100%;
