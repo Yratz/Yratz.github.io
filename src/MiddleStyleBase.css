@@ -133,7 +133,7 @@ footer {
     min-width: 150px;
     margin: 20px;
     min-height: 200px;
-    font-size: 1.5vw;
+    font-size: 1.5vm;
     color: #eaddc8;
     background: #7569a6;
     border-radius: 20px;
@@ -151,7 +151,7 @@ footer {
     min-width: 200px;
     /*margin-right: 100px;*/
     min-height: 100%;
-    font-size: 2vw;
+    font-size: 2vm;
     color: #eaddc8;
     background:#6417ac;
     padding: 20px;
