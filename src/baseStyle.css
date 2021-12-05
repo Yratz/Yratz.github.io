@@ -26,6 +26,7 @@ header {
 }
 
 main {
+    width:auto;
     display: block;
     background: none;
     grid-area: M;
@@ -116,7 +117,7 @@ footer {
     flex-direction: column;
     /*justify-content: space-around;*/
     /*vertical-align: center;*/
-    min-width: auto;
+    min-width: 220px;
     background-size: 100%;
     /*margin-right: 100px;*/
     min-height: 100%;
