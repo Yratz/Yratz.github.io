@@ -4,7 +4,6 @@
     padding: 0;
 }
 body {
-    overflow: hidden;
     display: grid;
     background: url("assets/Decoration/background.png");
     background-size: 100%;
@@ -117,7 +116,7 @@ footer {
     flex-direction: column;
     /*justify-content: space-around;*/
     /*vertical-align: center;*/
-    width: 200px
+    max-width: 200px
     /*margin-right: 100px;*/
     min-height: 100%;
     font-size: 2vw;
