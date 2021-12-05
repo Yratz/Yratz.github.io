@@ -117,7 +117,7 @@ footer {
     flex-direction: column;
     /*justify-content: space-around;*/
     /*vertical-align: center;*/
-    min-width: 220px;
+    max-width: 220px;
     background-size: 100%;
     /*margin-right: 100px;*/
     min-height: 100%;
